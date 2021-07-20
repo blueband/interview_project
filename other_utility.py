@@ -4,7 +4,6 @@ def extract_data_date(*args):
     data_date = args[0][0]
     current_data_date = stringToDateformat(data_date)
     status = getExpireStatus(current_data_date)
-    print('this is status :', status)
     return status
     
 
