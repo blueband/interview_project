@@ -14,6 +14,6 @@ def test_expiration_status():
     status = extract_data_date(['2017-04-04', '100940482', 'ogun', '23'])
     assert (isinstance(status, (bool))) == True
 
-def test_final_data_obj_isinatsnace():
+def test_check_finaldata_type():
     # Check that the final data is list object
-    
+    pass

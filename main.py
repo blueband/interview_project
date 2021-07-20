@@ -12,6 +12,7 @@ hearder_label.append('obsolete')
 
 global_container = []
 for data in raw_data[1:]:
+    print(data)
     status = extract_data_date(data)
     global_container.append([data[0], data[1], data[2], data[3], status])
 
