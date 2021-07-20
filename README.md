@@ -12,4 +12,4 @@ Library requirement:
 3. csv
 
 ***** Update*********
-1. test file added (Three use case was implemented)
+1. test file (test_all_func.py) added (Three use case was implemented).
